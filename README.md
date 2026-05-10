@@ -11,11 +11,11 @@ Target Variable --> class
 
 This is the label the model predicts. It has three categories:
 
-    - STAR : Objects that emit light due to nuclear fusion in their cores.
+- STAR : Objects that emit light due to nuclear fusion in their cores.
     
-    - GALAXY : Massive systems containing billions of stars, gas, and dust.
+- GALAXY : Massive systems containing billions of stars, gas, and dust.
     
-    - QSO (Quasar) : Extremely luminous active galactic nuclei powered by supermassive black holes.
+- QSO (Quasar) : Extremely luminous active galactic nuclei powered by supermassive black holes.
 
 ## Feature Description
 
@@ -38,11 +38,11 @@ In astronomical surveys such as the Sloan Digital Sky Survey (SDSS), objects are
 
 Each band corresponds to a specific wavelength range of light:
 
-    u-band (ultraviolet) – measures light in the near‑ultraviolet region (~354 nm).
-    g-band (green) – captures light in the blue‑green part of the spectrum (~477 nm).
-    r-band (red) – measures red visible light (~623 nm).
-    i-band (near‑infrared) – captures light slightly beyond the red part of the spectrum (~763 nm).
-    z-band (infrared) – measures deeper near‑infrared wavelengths (~913 nm).
+- u-band (ultraviolet) – measures light in the near‑ultraviolet region (~354 nm).
+- g-band (green) – captures light in the blue‑green part of the spectrum (~477 nm).
+- r-band (red) – measures red visible light (~623 nm).
+- i-band (near‑infrared) – captures light slightly beyond the red part of the spectrum (~763 nm).
+- z-band (infrared) – measures deeper near‑infrared wavelengths (~913 nm).
 
 The values recorded in these columns represent the magnitude, which is a logarithmic measure of an object’s brightness. In the magnitude scale, smaller numbers correspond to brighter objects, while larger numbers indicate fainter objects.
 
@@ -54,10 +54,10 @@ These photometric features are also very useful in machine learning and classifi
 
 These columns describe the telescope imaging configuration.
 
-    run – Imaging run number
-    rerun – Data processing rerun number
-    camcol – Camera column used for observation
-    field – Field number of the observation
+- run – Imaging run number
+- rerun – Data processing rerun number
+- camcol – Camera column used for observation
+- field – Field number of the observation
 
 ### Spectroscopic Information
 
@@ -71,6 +71,21 @@ plate : Spectroscopic plate identifier.
 mjd : Modified Julian Date of observation.
 
 fiberid : Fiber number used during spectroscopic observation.
+
+## Machine Learning Models(Classification models)
+- Decision Tree
+- KNN
+- Logistic Regression (Linear Classifier)
+
+## Technologies Used
+- Python
+- PandaS
+- NumPy
+- Scikitlearn
+- Matplotlib
+- SeaBorn
+- TensorFlow
+- Keras
 
 
 ## Dataset Source

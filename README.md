@@ -31,3 +31,25 @@ These describe the object’s location in the sky.
 ra (Right Ascension) : Angular distance measured eastward along the celestial equator.
 
 dec (Declination) : Angular distance north or south of the celestial equator.
+
+### Photometric Measurements in Five Bands (u, g, r, i, z)
+
+In astronomical surveys such as the Sloan Digital Sky Survey (SDSS), objects are observed using five different photometric filters: u, g, r, i, and z. These filters measure the brightness of celestial objects at different ranges of the electromagnetic spectrum.
+
+Each band corresponds to a specific wavelength range of light:
+
+    u-band (ultraviolet) – measures light in the near‑ultraviolet region (~354 nm).
+    g-band (green) – captures light in the blue‑green part of the spectrum (~477 nm).
+    r-band (red) – measures red visible light (~623 nm).
+    i-band (near‑infrared) – captures light slightly beyond the red part of the spectrum (~763 nm).
+    z-band (infrared) – measures deeper near‑infrared wavelengths (~913 nm).
+
+The values recorded in these columns represent the magnitude, which is a logarithmic measure of an object’s brightness. In the magnitude scale, smaller numbers correspond to brighter objects, while larger numbers indicate fainter objects.
+
+Using measurements from these five bands allows astronomers to study the color and physical properties of astronomical objects. Differences between magnitudes in different bands (for example, u − g or g − r) are called color indices, and they provide important information about temperature, composition, and redshift.
+
+These photometric features are also very useful in machine learning and classification tasks, because different types of astronomical objects—such as stars, galaxies, and quasars—tend to have distinct brightness patterns across the five bands.
+
+
+
+
